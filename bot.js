@@ -72,7 +72,6 @@ async function poll() {
         return;
       }
 
-      if (msg.author.bot) continue;
 
       const files = (msg.attachments || []).map((a) => a.url);
 
